@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import heroImage from "../assets/sri.png";
 
 export default function Hero() {
   return (
@@ -44,7 +45,7 @@ export default function Hero() {
             {/* Image Card */}
             <div className="relative aspect-[4/5] md:aspect-square lg:aspect-[4/5] rounded-[2.5rem] overflow-hidden bg-white shadow-2xl shadow-gray-200 border-8 border-white transition-transform duration-700 hover:scale-[1.02]">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+                src={heroImage}
                 alt="Sri Gaandhimathy" 
                 className="w-full h-full object-cover"
               />
